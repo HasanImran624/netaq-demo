@@ -1,0 +1,331 @@
+﻿
+
+/*@font-face {
+    font-family: 'almarai';
+    src: url('../fonts/almarai.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'almarai-bold';
+    src: url('../fonts/almarai-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'almarai-extrabold';
+    src: url('../fonts/almarai-extrabold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'almarai-light';
+    src: url('../fonts/almarai-light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'almarai-regular';
+    src: url('../fonts/almarai-regular.ttf') format('truetype');
+}
+
+
+:root {
+    --bs-mainbg: #008345;
+    --bs-blue: #3f80ea;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #e83e8c;
+    --bs-red: #d9534f;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #e5a54b;
+    --bs-green: #4bbf73;
+    --bs-teal: #20c997;
+    --bs-cyan: #1f9bcf;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #020202;
+    --bs-gray-100: #f4f7f9;
+    --bs-gray-200: #e2e8ee;
+    --bs-gray-300: #dee6ed;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #020202;
+    --bs-gray-900: #212529;
+    --bs-primary: #3f80ea;
+    --bs-secondary: #495057;
+    --bs-success: #4bbf73;
+    --bs-info: #1f9bcf;
+    --bs-warning: #e5a54b;
+    --bs-danger: #d9534f;
+    --bs-light: #eff2f6;
+    --bs-dark: #293042;
+    --bs-primary-rgb: 63,128,234;
+    --bs-secondary-rgb: 73,80,87;
+    --bs-success-rgb: 75,191,115;
+    --bs-info-rgb: 31,155,207;
+    --bs-warning-rgb: 229,165,75;
+    --bs-danger-rgb: 217,83,79;
+    --bs-light-rgb: 239,242,246;
+    --bs-dark-rgb: 41,48,66;
+    --bs-white-rgb: 255,255,255;
+    --bs-black-rgb: 0,0,0;
+    --bs-body-color-rgb: 108,117,125;
+    --bs-body-bg-rgb: 247,249,252;
+    --bs-font-sans-serif: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    --bs-gradient: linear-gradient(180deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,0));*/
+    /* --bs-body-font-family: var(--bs-font-sans-serif);*/
+    /*--bs-font-almarai: 'almarai','almarai-bold','almarai-extrabold','almarai-light';
+    --bs-body-font-family: var(--bs-font-almarai);
+    --bs-body-font-size: 0.825rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.625;
+    --bs-body-color: #6c757d;
+    --bs-body-bg: #f7f9fc;
+    --bs-border-width: 1px;
+    --bs-border-style: solid;
+    --bs-border-color: #dee6ed;
+    --bs-border-color-translucent: rgba(0,0,0,.175);
+    --bs-border-radius: 0.2rem;
+    --bs-border-radius-sm: 0.1rem;
+    --bs-border-radius-lg: 0.3rem;
+    --bs-border-radius-xl: 1rem;
+    --bs-border-radius-2xl: 2rem;
+    --bs-border-radius-pill: 50rem;
+    --bs-link-color: #3f80ea;
+    --bs-link-hover-color: #3266bb;
+    --bs-code-color: #e83e8c;
+    --bs-highlight-bg: #faeddb
+}*/
+
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*background-color: rgba(141, 137, 137, 0.56); *//* dark grey Transparent color */
+    background-color: rgba(0,131,69,0.8); /*green transparent color same as footer*/
+    color: rgb(12,12,12);
+    padding-top: 2px;
+    margin-top: 0px;
+    /*height:50px;*/
+    /*position: relative; */ /* Make the navbar position relative */
+    z-index: 999;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%; /* Ensure logo image doesn't exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.hide-nav-list {
+    display: none;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+    .nav-item:last-child {
+        margin-right: 0;
+    }
+
+    .nav-item a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+.navbar-right-images {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*.navbar-right-image {
+    max-width: 100px;*/ /* Adjust the max-width of the images as needed */
+/*height: auto;*/ /* Maintain aspect ratio */
+/*margin-left: 5px;*/ /* Add spacing between the images */
+/*}*/
+
+.navbar-right-image {
+    margin-top:10px;
+    max-width: 100px; /* Adjust the max-width of the images for smaller screens */
+    justify-content: flex-start;
+}
+/* Hide the navbar collapse button by default */
+.hide-collapse {
+    display: none !important;
+}
+
+
+#top {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+    #top video {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        object-fit: cover;
+        /*height: calc(100vh - 50px);*/ /* Full viewport height minus height of the navbar */
+    }
+/* Style for the overlay layer */
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logInInfoBlock {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    max-width: 400px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999; /* Ensure the footer is above other content */
+    background-color: rgba(0,131,69,0.8); /*rgba(10,97,63,0.8);*/
+}
+
+/* Additional styles for footer */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-content img {
+    margin-right: 10px;
+    max-width: 70px;
+}
+    .footer .container-fluid {
+        display: flex;
+        flex-direction: column;
+        height: 100%; /* Ensures the container fills the height */
+    }
+
+    .footer .row.text-muted {
+        flex: 1; /* Allows the row to take up remaining vertical space */
+        display: flex;
+        align-items: center; /* Centers the contents vertically */
+    }
+
+.footer_txt_padding {
+    color: #ffffff !important;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer_txt_format_h {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer_txt_format_o {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer_txt_copyright {
+    color: #ffffff !important;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(255, 134, 38, 0.70);
+}
+
+.footer_qr_image {
+    margin: 5px;
+    /*height: 48px;
+    width: 48px;*/
+    max-width: 70px;
+}
+
+.icon-color {
+    color: #ffffff !important;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .footer .container-fluid {
+        padding: 0 10px;
+    }
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        margin-bottom: 5px;
+    }
+
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+}

@@ -1,0 +1,266 @@
+
+
+
+
+
+
+
+
+
+html {
+    font-family: Inter;
+    font-size: 16px;
+}
+
+body {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    color: var(--dl-color-gray-black);
+    background-color: var(--dl-color-gray-white);
+}
+
+* {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+}
+
+p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: transparent;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+    button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+    }
+/*
+    button:-moz-focus, [type="button"]:-moz-focus, [type="reset"]:-moz-focus, [type="submit"]:-moz-focus {
+        outline: 1px dotted ButtonText;*/
+    /*}*/
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+input {
+    padding: 2px 4px;
+}
+
+img {
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+
+
+
+
+
+
+
+
+
+.login-iscope-container {
+    min-height: 100vh;
+}
+
+.login-iscope-login-iscope {
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.login-iscope-enterusernametitle {
+    top: 315px;
+    left: 545px;
+    width: 349px;
+    height: 70px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.login-iscope-headerapp {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 86px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.login-iscope-logo-amana {
+    top: 331px;
+    left: 1105px;
+    width: 304px;
+    height: 302px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.login-iscope-password-icon {
+    top: 510px;
+    left: 939px;
+    width: 43px;
+    height: 45px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.login-iscope-user-icon {
+    top: 418px;
+    left: 942px;
+    width: 38px;
+    height: 41px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.login-iscope-map1 {
+    top: 110px;
+    left: 0px;
+    height: 70%;
+    position: absolute;
+    border-color: transparent;
+}
+
+.login-iscope-buttonlogin {
+    top: 603px;
+    left: 660px;
+    width: 196px;
+    height: 44px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.login-iscope-footerapp {
+    left: -3px;
+    width: 100%;
+    bottom: 1px;
+    height: 86px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.login-iscope-password {
+    top: 508px;
+    left: 598px;
+    width: 324px;
+    height: 49px;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.login-iscope-username {
+    top: 418px;
+    left: 598px;
+    width: 324px;
+    height: 49px;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.login-iscope-text {
+    top: 430px;
+    left: 615px;
+    color: rgba(173, 232, 243, 1);
+    width: 277px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Almarai;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+
+
+}
+
+.login-iscope-text2 {
+    top: 522px;
+    left: 615px;
+    color: rgba(173, 232, 243, 1);
+    width: 277px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Almarai;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+}
+
+.login-iscope-text4 {
+    top: 688px;
+    left: 665px;
+    color: rgba(59, 89, 100, 1);
+    width: 179px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Almarai;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+:root {
+  /* fonts */
+  --font-almarai: Almarai;
+
+  /* font sizes */
+  --font-size-sm: 20px;
+  --font-size-base: 32px;
+  --font-size-lg: 96px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkcyan-100: #1ca1a8;
+  --color-darkcyan-200: #1ea0a6;
+  --color-darkcyan-300: #1ca1a6;
+  --color-silver: #c0c0c0;
+  --color-black: #000;
+  --color-seagreen: #268751;
+
+  /* border radiuses */
+  --br-sm: 20px;
+  --br-md: 50px;
+}
